@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Roman Chickens: {{ comic.title }}</title>
+</head>
+
+<body>
+
+<h1>Roman Chickens</h1>
+
+<h2>{{ comic.title }}</h2>
+
+{% include "includes/nav.html" %}
+
+<br>
+
+<img src="/media/{{ comic.img_src }}" title="{{ comic.tooltip }}" alt="{{ comic.title }}" />
+
+<br>
+
+{% include "includes/nav.html" %}
+
+</body>
+
+</html>
