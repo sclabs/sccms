@@ -15,7 +15,7 @@ Prerequisites
 Installation
 ------------
 
-Make sure you have the prerequisites listed above installed. Next, [download the latest version of ](https://github.com/thomasgilgenast/Simple-Comic-CMS/zipball/master). Unzip the archive to the directory you want to run the server from.
+Make sure you have the prerequisites listed above installed. Next, [download the latest version of SCCMS](https://github.com/thomasgilgenast/Simple-Comic-CMS/zipball/master). Unzip the archive to the directory you want to run the server from.
 
 Alternatively, you can clone the git repository by executing
 
