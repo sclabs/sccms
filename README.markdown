@@ -12,12 +12,23 @@ Prerequisites
 - [Python 2.x](http://python.org/)
 - [Django 1.x](https://www.djangoproject.com/)
 
+Installation
+------------
+
+Make sure you have the prerequisites listed above installed. Next, [download the latest version of ](https://github.com/thomasgilgenast/Simple-Comic-CMS/zipball/master). Unzip the archive to the directory you want to run the server from.
+
+Alternatively, you can clone the git repository by executing
+
+    git clone git://github.com/thomasgilgenast/Simple-Comic-CMS.git
+
+Feel free to fork the repository and develop your own tweaks and features under the conditions of the license (see below).
+
 Quick-Start (in Five Easy Steps)
 --------------------------------
 
-1. In settings.py, change SITE_TITLE from 'My Awesome Webcomic' to whatever you actually want to call your site.
-2. Run python manage.py syncdb and create a superuser for yourself when prompted.
-3. Run python manage.py runserver
+1. In `settings.py`, change `SITE_TITLE` from 'My Awesome Webcomic' to whatever you actually want to call your site.
+2. Run `python manage.py syncdb` and create a superuser for yourself when prompted.
+3. Run `python manage.py runserver`.
 4. Point your browser to <http://127.0.0.1:8000/admin/>.
 5. Click on "Comics" and then "Add comic". Fill out all the fields, upload your image, and click "Save".
 
