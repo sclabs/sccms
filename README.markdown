@@ -1,7 +1,7 @@
 Simple-Comic-CMS
 ================
 
-![Simple-Comic-CMS](http://sccms.gilgi.org/sccms.png "Simple-Comic-CMS")
+<img src="http://sccms.gilgi.org/sccms.png" alt="Simple-Comic-CMS" title="Simple-Comic-CMS" height="200px" width="200px"/>
 
 Introduction
 ------------
