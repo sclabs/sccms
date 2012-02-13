@@ -1,6 +1,8 @@
 Simple-Comic-CMS
 ================
 
+![Simple-Comic-CMS](http://sccms.gilgi.org/sccms.png "Simple-Comic-CMS")
+
 Introduction
 ------------
 
