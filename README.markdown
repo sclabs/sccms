@@ -65,4 +65,4 @@ For more information visit <http://sccms.gilgi.org>. Direct all questions, comme
 License Information
 -------------------
 
-SCCMS is released under the terms of the GNU General Public License. For details, please visit <http://www.gnu.org/licenses/gpl.html>.
+SCCMS is released under the terms of the GNU General Public License, the full text of which is available in `GPL`. For details, please visit <http://www.gnu.org/licenses/gpl.html>.
