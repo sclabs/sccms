@@ -1,12 +1,13 @@
-# Create your views here.
 from models import Comic
 from django.shortcuts import render_to_response, redirect
-from settings import SITE_TITLE
+from comicms.settings import SITE_TITLE
+from settings import MEDIA_URL
 import random
 
 def lastcomic(request):
     comic = Comic.objects.order_by('-number')[0]
     sitetitle = SITE_TITLE
+    mediaurl = MEDIA_URL
     return render_to_response('comic.html', locals())
 
 def randomcomic(request):
@@ -17,6 +18,7 @@ def randomcomic(request):
 def particularcomic(request, number):
     comic = Comic.objects.get(number=int(number))
     sitetitle = SITE_TITLE
+    mediaurl = MEDIA_URL
     return render_to_response('comic.html', locals())
 
 def previouscomic(request, number):

@@ -1,8 +1,6 @@
 # Django settings for webcomic project.
 import os
 
-SITE_TITLE = 'My Awesome Webcomic'
-
 DEBUG = True
 
 TEMPLATE_DEBUG = DEBUG

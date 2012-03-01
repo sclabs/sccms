@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 class Comic(models.Model):
     number = models.IntegerField(primary_key = True)
     img_src = models.FileField(upload_to = 'comics')

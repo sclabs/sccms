@@ -28,7 +28,7 @@ Feel free to fork the repository and develop your own tweaks and features under 
 Quick-Start (in Five Easy Steps)
 --------------------------------
 
-1. In `settings.py`, change `SITE_TITLE` from 'My Awesome Webcomic' to whatever you actually want to call your site.
+1. In `comicms/settings.py`, change `SITE_TITLE` from 'My Awesome Webcomic' to whatever you actually want to call your site.
 2. Run `python manage.py syncdb` and create a superuser for yourself when prompted.
 3. Run `python manage.py runserver`.
 4. Point your browser to <http://127.0.0.1:8000/admin/>.
