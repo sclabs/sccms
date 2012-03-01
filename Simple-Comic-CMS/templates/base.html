@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}"
+    xml:lang="{% firstof LANGUAGE_CODE 'en' %}"
+    lang="{% firstof LANGUAGE_CODE 'en' %}">
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+
+    {% block css %}
+    {% endblock %}
+
+    {% block preload_js %}
+    {% endblock %}
+  </head>
+
+  <body>
+    {% block content %}
+    {% endblock %}
+
+    {% block footer %}
+    {% endblock %}
+
+    {% block js %}
+    {% endblock %}
+  </body>
+</html>
