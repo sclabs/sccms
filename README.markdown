@@ -54,7 +54,7 @@ Next Steps
 
 ### Database Configuration
 
-By default, sccms uses a sqlite database file located at the root of your site called "database.sqlite" for its database. To change this, change the DATABASES variable in settings.py, following the instructions in the comments.
+By default, sccms uses a sqlite database file located at the root of your site called "database.sqlite" for its database. To change this, change the DATABASES variable in `settings.py`, following the instructions in the comments.
 
 ### Site Themes
 
