@@ -62,7 +62,7 @@ The templates directory contains a bare-bones example template (`comic.html`) th
 
 ### Need Help?
 
-For more information visit <http://sccms.gilgi.org>. Direct all questions, comments, and bug reports to <sccms@gilgi.org>.
+For more information visit <http://sccms.gilgi.org>. Direct all questions, comments, and bug reports to <sclabs@gilgi.org>.
 
 License Information
 -------------------
