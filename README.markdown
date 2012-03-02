@@ -1,12 +1,12 @@
-Simple-Comic-CMS
-================
+Simple-Comic-CMS (sccms)
+========================
 
 <img src="http://sccms.gilgi.org/img/sccms.png" alt="Simple-Comic-CMS" title="Simple-Comic-CMS" height="250px" width="250px"/>
 
 Introduction
 ------------
 
-Simple-Comic-CMS (SCCMS) is a bare-bones and easy-to-customize content management system designed primarily for webcomics.
+Simple-Comic-CMS (sccms) is a bare-bones and easy-to-customize content management system designed primarily for webcomics.
 
 Prerequisites
 -------------
@@ -17,11 +17,11 @@ Prerequisites
 Installation
 ------------
 
-Make sure you have the prerequisites listed above installed. Next, [download the latest version of SCCMS](https://github.com/thomasgilgenast/Simple-Comic-CMS/zipball/master). Unzip the archive to the directory you want to run the server from.
+Make sure you have the prerequisites listed above installed. Next, [download the latest version of SCCMS](https://github.com/thomasgilgenast/sccms/zipball/master). Unzip the archive to the directory you want to run the server from.
 
 Alternatively, you can clone the git repository by executing
 
-    git clone git://github.com/thomasgilgenast/Simple-Comic-CMS.git
+    git clone git://github.com/thomasgilgenast/sccms.git
 
 Feel free to fork the repository and develop your own tweaks and features under the conditions of the license (see below).
 
@@ -45,14 +45,14 @@ You can always add more comics through the admin interface as demonstrated above
 
 ### Comic Numbering
 
-Make sure your comic numbering is consistent. Presently, SCCMS does not check to make sure that your numbering is correct. Numbering your comics incorrectly will result in broken navigation links.
+Make sure your comic numbering is consistent. Presently, sccms does not check to make sure that your numbering is correct. Numbering your comics incorrectly will result in broken navigation links.
 
 Next Steps
 ----------
 
 ### Database Configuration
 
-By default, SCCMS uses a sqlite database file located at the root of your site called "database.sqlite" for its database. To change this, change the DATABASES variable in settings.py, following the instructions in the comments.
+By default, sccms uses a sqlite database file located at the root of your site called "database.sqlite" for its database. To change this, change the DATABASES variable in settings.py, following the instructions in the comments.
 
 ### Site Themes
 
@@ -65,4 +65,4 @@ For more information visit <http://sccms.gilgi.org>. Direct all questions, comme
 License Information
 -------------------
 
-SCCMS is released under the terms of the GNU General Public License, the full text of which is available in `GPL`. For details, please visit <http://www.gnu.org/licenses/gpl.html>.
+sccms is released under the terms of the GNU General Public License, the full text of which is available in `GPL`. For details, please visit <http://www.gnu.org/licenses/gpl.html>.
