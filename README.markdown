@@ -58,7 +58,7 @@ By default, sccms uses a sqlite database file located at the root of your site c
 
 ### Site Themes
 
-The templates directory contains a bare-bones example template (comic.html) that you should feel free to modify and style however you like.
+The templates directory contains a bare-bones example template (`comic.html`) that you should feel free to modify and style however you like.
 
 ### Need Help?
 
