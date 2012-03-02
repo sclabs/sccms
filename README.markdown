@@ -1,7 +1,7 @@
 Simple-Comic-CMS (sccms)
 ========================
 
-_A simple Comic CMS built on django._
+_A simple webcomic CMS built on django._
 
 <img src="http://sccms.gilgi.org/img/sccms.png" alt="Simple-Comic-CMS" title="Simple-Comic-CMS" height="250px" width="250px"/>
 
