@@ -1,4 +1,4 @@
 from django.contrib import admin
-from comicms.models import Comic
+from models import Comic
 
 admin.site.register(Comic)

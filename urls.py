@@ -6,7 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include('comicms.urls')),
+    url(r'^', include('sccms.urls')),
 )
 
 if DEBUG:

@@ -1,6 +1,6 @@
 from models import Comic
 from django.shortcuts import render_to_response, redirect
-from comicms.settings import SITE_TITLE
+from sccms.settings import SITE_TITLE
 from settings import MEDIA_URL
 import random
 
