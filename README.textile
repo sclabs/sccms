@@ -1,0 +1,60 @@
+h1. Simple-Comic-CMS (sccms)
+
+_A simple webcomic CMS built on django._
+
+h2. Introduction
+
+Simple-Comic-CMS (sccms) is a bare-bones and easy-to-customize content management system designed primarily for webcomics.
+
+h2. Prerequisites
+
+* "Python 2.x":http://python.org
+* "Django 1.x":https://www.djangoproject.com/
+
+h2. Installation
+
+Make sure you have the prerequisites listed above installed. Next, "download the latest version of sccms":https://github.com/sclabs/sccms/zipball/master. Unzip the archive to any directory on your file system.
+
+Alternatively, you can clone the git repository by executing
+
+bc. git clone git://github.com/sclabs/sccms.git
+
+Feel free to fork the repository and develop your own tweaks and features under the conditions of the license (see below).
+
+h2. Quick-Start (in Five Easy Steps)
+
+# In @sccms/settings.py@, change @SITE_TITLE@ from 'My Awesome Webcomic' to whatever you actually want to call your site.
+# Run @python manage.py syncdb@ and create a superuser for yourself when prompted.
+# Run @python manage.py runserver@.
+# Point your browser to "127.0.0.1:8000/admin/":http://127.0.0.1:8000/admin/.
+# Click on "Comics" and then "Add comic". Fill out all the fields, upload your image, and click "Save".
+
+It's that simple! Point your browser to "127.0.0.1:8000":http://127.0.0.1:8000/ to see your comic!
+
+h2. Notes
+
+h3. Comic Upload Directory 
+
+You can always add more comics through the admin interface as demonstrated above. The comic image files are uploaded to /media/comics on your site and the url example.com/media/comics should point to them.
+
+h3. Comic Numbering
+
+Make sure your comic numbering is consistent. Presently, sccms does not check to make sure that your numbering is correct. Numbering your comics incorrectly will result in broken navigation links.
+
+h2. Next Steps
+
+h3. Database Configuration
+
+By default, sccms uses a sqlite database file located at the root of your site called "database.sqlite" for its database. To change this, change the @DATABASES@ variable in @settings.py@, following the instructions in the comments.
+
+h3. Site Themes
+
+The templates directory contains a bare-bones example template (@comic.html@) that you should feel free to modify and style however you like.
+
+h3. Need Help?
+
+For more information visit "sclabs.gilgi.org/sccms/":http://sclabs.gilgi.org/sccms/. Direct all questions, comments, and bug reports to "sclabs@gilgi.org":mailto:sclabs@gilgi.org.
+
+h2. License Information
+
+sccms is released under the terms of the GNU General Public License, the full text of which is available in the file @GPL@. For details, please visit "www.gnu.org/licenses/gpl.html":http://www.gnu.org/licenses/gpl.html.
